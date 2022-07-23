@@ -1,0 +1,58 @@
+.adminContactWrapper p {
+  font-size: 2.5rem;
+  height: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.adminContactWrapper p a {
+  text-decoration: underline;
+  color: black;
+}
+
+.adminContactWrapper p input {
+  font-size: 2.5rem;
+  display: inline-block;
+  margin-left: 3rem;
+  transition: .2s;
+  -webkit-transition: .2s;
+  -moz-transition: .2s;
+  -ms-transition: .2s;
+  -o-transition: .2s;
+  width: 50%;
+  padding: .5rem 1rem;
+  outline: none;
+  border: 0.1rem solid rgba(0, 98, 159, 0.15);
+}
+
+.adminContactWrapper p input:focus {
+  border: 0.1rem solid rgba(0, 98, 159, 0.5);
+}
+
+.adminContactWrapper p button {
+  display: inline-block;
+  margin-left: 3rem;
+  font-size: 2.5rem;
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background-color: #00629f;
+  transition: .2s;
+  -webkit-transition: .2s;
+  -moz-transition: .2s;
+  -ms-transition: .2s;
+  -o-transition: .2s;
+  color: #ffffff;
+}
+
+.adminContactWrapper p button:hover {
+  background-color: #035283;
+}
+/*# sourceMappingURL=AdminContact.css.map */

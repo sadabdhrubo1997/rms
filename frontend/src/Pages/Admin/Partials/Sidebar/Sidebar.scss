@@ -1,0 +1,68 @@
+#sidebar {
+    height: 100vh;
+    width: 20rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #0465A2;
+    color: #ffffff;
+    padding-top: 2rem;
+
+
+    .adminRootAnchor {
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 3.5rem;
+        display: block;
+        text-align: center;
+        font-weight: 600;
+        margin-bottom: 5rem;
+    }
+
+
+    .menu {
+        width: 100%;
+
+        ul {
+            width: 100%;
+            display: block;
+            list-style: none;
+
+            li {
+                width: 100%;
+                text-align: center;
+                display: block;
+                margin-bottom: 1.5rem;
+
+
+                a {
+                    text-decoration: none;
+                    font-size: 2.2rem;
+                    color: #ffffff;
+                    transition: .1s;
+                    -webkit-transition: .1s;
+                    -moz-transition: .1s;
+                    -ms-transition: .1s;
+                    -o-transition: .1s;
+                    display: block;
+                    height: 100%;
+                    padding: .8rem 0;
+
+
+
+                    &:hover {
+                        background-color: rgba(255, 255, 255, 0.8);
+                        color: #0465A2;
+
+                    }
+
+                }
+
+                a.active {
+                    background-color: #fff;
+                    color: #0465A2;
+                }
+            }
+        }
+    }
+}

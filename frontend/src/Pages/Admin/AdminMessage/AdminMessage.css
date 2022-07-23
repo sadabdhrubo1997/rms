@@ -1,0 +1,125 @@
+#admin_message table {
+  width: 100%;
+}
+
+#admin_message table thead {
+  background-color: rgba(0, 98, 159, 0.05);
+  font-size: 3rem;
+}
+
+#admin_message table thead th {
+  padding: 1rem;
+  color: #00629f;
+}
+
+#admin_message table thead .serial {
+  width: 6%;
+}
+
+#admin_message table thead .action {
+  width: 12%;
+}
+
+#admin_message table tbody {
+  font-size: 2.5rem;
+}
+
+#admin_message table tbody tr {
+  border-bottom: 0.1rem solid #00629f;
+}
+
+#admin_message table tbody tr td {
+  text-align: center;
+  padding: 0.5rem;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+#admin_message table tbody tr td a {
+  display: inline-block;
+  margin: .5rem;
+  background-color: #00629f;
+  color: #ffffff;
+  font-size: 2rem;
+  padding: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+  transition: .2s;
+  -webkit-transition: .2s;
+  -moz-transition: .2s;
+  -ms-transition: .2s;
+  -o-transition: .2s;
+}
+
+#admin_message table tbody tr td a:hover {
+  background-color: #003c61;
+}
+
+#admin_message table tbody tr td button {
+  display: inline-block;
+  margin: .5rem;
+  background-color: #da0202;
+  color: #ffffff;
+  font-size: 2rem;
+  padding: 1rem;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: .2s;
+  -webkit-transition: .2s;
+  -moz-transition: .2s;
+  -ms-transition: .2s;
+  -o-transition: .2s;
+}
+
+#admin_message table tbody tr td button:hover {
+  background-color: #940000;
+}
+
+#admin_message table tbody tr td.noDataExists {
+  color: #00629f;
+}
+
+.singleMessageView {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.singleMessageView .left {
+  width: 50%;
+  font-size: 2.5rem;
+}
+
+.singleMessageView .left p {
+  margin-bottom: 0.5rem;
+  color: #003c61;
+}
+
+.singleMessageView .left p.messageBody {
+  background-color: rgba(0, 60, 97, 0.05);
+  margin-top: 1rem;
+  padding: 2rem;
+}
+
+.singleMessageView .right .deleteMessageButton {
+  background-color: #e72929;
+  padding: 1rem 2rem;
+  outline: none;
+  border: none;
+  transition: .2s;
+  -webkit-transition: .2s;
+  -moz-transition: .2s;
+  -ms-transition: .2s;
+  -o-transition: .2s;
+  font-size: 2.5rem;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.singleMessageView .right .deleteMessageButton:hover {
+  background-color: #ca1111;
+}
+/*# sourceMappingURL=AdminMessage.css.map */

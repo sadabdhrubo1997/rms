@@ -1,0 +1,73 @@
+#quotation {
+    .main_body {
+        padding: 10rem 0 8rem 0;
+
+
+        h2 {
+            color: #00609D;
+            font-size: 5rem;
+            font-size: 400;
+            margin-bottom: 5rem;
+        }
+
+        form {
+            max-width: 70.2rem;
+
+            input {
+                width: 100%;
+                display: block;
+                margin-bottom: 2rem;
+                outline: none;
+                border: none;
+                background-color: #F0F0F0;
+                font-size: 1.8rem;
+                padding: 1.6rem;
+
+                &:focus {
+                    outline: none;
+                    border: none;
+                }
+
+                &::placeholder {
+                    color: rgba(0, 0, 0, 0.3);
+                }
+            }
+
+            .bottom {
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+
+                input:first-child {
+                    width: 60%;
+
+                }
+
+                input:last-child {
+                    width: 37%;
+
+                }
+            }
+
+            button {
+                font-size: 2.5rem;
+                padding: 1rem 6.7rem;
+                background-color: #00609D;
+                color: #ffffff;
+                outline: none;
+                border: none;
+                cursor: pointer;
+                transition: .2s;
+                -webkit-transition: .2s;
+                -moz-transition: .2s;
+                -ms-transition: .2s;
+                -o-transition: .2s;
+
+
+                &:hover{
+                    background-color: #014a77;
+                }
+            }
+        }
+    }
+}

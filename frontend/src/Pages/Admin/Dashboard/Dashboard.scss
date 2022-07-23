@@ -1,0 +1,16 @@
+#dashboard {
+    .wrapper {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        .card {
+            height: 30rem;
+            width: 23.5%;
+            background-color: rgba(4, 101, 162, 0.05);
+            margin: 1rem;
+            border: .1rem solid rgba(4, 101, 162, 0.3);
+        }
+    }
+}

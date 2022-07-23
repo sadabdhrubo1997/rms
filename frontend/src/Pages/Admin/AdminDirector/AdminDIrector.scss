@@ -1,0 +1,101 @@
+#admin_director {
+    .admin_main_body {
+        display: block;
+    }
+
+    .wrapper {
+        margin-top: 5rem;
+
+        table {
+            width: 100%;
+
+            thead {
+                background-color: rgba(0, 60, 97, 0.05);
+                color: rgb(0, 60, 97);
+                font-size: 3rem;
+
+                th {
+                    padding: 1rem;
+                }
+
+            }
+
+
+            tbody {
+                font-size: 2.5rem;
+                color: rgba(0, 60, 97, 0.7);
+
+                td {
+                    text-align: center;
+
+                    button {
+                        display: inline-block;
+                        margin: 1rem;
+                        padding: 1rem 2rem;
+                        font-size: 2.5rem;
+                        outline: none;
+                        border: none;
+                        color: #ffffff;
+                        transition: .2s;
+                        -webkit-transition: .2s;
+                        -moz-transition: .2s;
+                        -ms-transition: .2s;
+                        -o-transition: .2s;
+                        cursor: pointer;
+                        background-color: rgb(231, 41, 41);
+
+                        
+                        &:hover{
+                            background-color: rgb(202, 17, 17);
+
+                        }
+                    }
+
+                    a {
+                        display: inline-block;
+                        margin: 1rem;
+                        padding: 1rem 2rem;
+                        font-size: 2.5rem;
+                        outline: none;
+                        border: none;
+                        color: #ffffff;
+                        transition: .2s;
+                        -webkit-transition: .2s;
+                        -moz-transition: .2s;
+                        -ms-transition: .2s;
+                        -o-transition: .2s;
+                        cursor: pointer;
+                        background-color: rgba(0, 60, 97, 0.884);
+                        text-decoration: none;
+
+                        &:hover{
+                            background-color: rgba(1, 40, 65, 0.884);
+
+                        }
+
+                    }
+
+
+                    img {
+                        width: 10rem;
+                        padding: 2rem;
+                    }
+                }
+            }
+
+
+            .image {
+                width: 25rem;
+            }
+
+            .name {
+                width: 40%;
+            }
+
+            .designation {
+                width: 20%;
+
+            }
+        }
+    }
+}

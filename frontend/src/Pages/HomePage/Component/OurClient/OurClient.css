@@ -1,0 +1,17 @@
+#our_client {
+  padding-top: 6rem !important;
+  background-color: #fff;
+}
+
+#our_client h2 {
+  font-size: 4rem;
+  color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 6rem;
+}
+
+#our_client img {
+  width: 100%;
+}
+/*# sourceMappingURL=OurClient.css.map */

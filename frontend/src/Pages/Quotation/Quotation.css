@@ -1,0 +1,84 @@
+#quotation .main_body {
+  padding: 10rem 0 8rem 0;
+}
+
+#quotation .main_body h2 {
+  color: #00609D;
+  font-size: 5rem;
+  font-size: 400;
+  margin-bottom: 5rem;
+}
+
+#quotation .main_body form {
+  max-width: 70.2rem;
+}
+
+#quotation .main_body form input {
+  width: 100%;
+  display: block;
+  margin-bottom: 2rem;
+  outline: none;
+  border: none;
+  background-color: #F0F0F0;
+  font-size: 1.5rem;
+  padding: 1.6rem;
+}
+
+#quotation .main_body form input:focus {
+  outline: none;
+  border: none;
+}
+
+#quotation .main_body form input::-webkit-input-placeholder {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+#quotation .main_body form input:-ms-input-placeholder {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+#quotation .main_body form input::-ms-input-placeholder {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+#quotation .main_body form input::placeholder {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+#quotation .main_body form .bottom {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#quotation .main_body form .bottom input:first-child {
+  width: 60%;
+}
+
+#quotation .main_body form .bottom input:last-child {
+  width: 37%;
+}
+
+#quotation .main_body form button {
+  font-size: 2.5rem;
+  padding: 1rem 6.7rem;
+  background-color: #00609D;
+  color: #ffffff;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: .2s;
+  -webkit-transition: .2s;
+  -moz-transition: .2s;
+  -ms-transition: .2s;
+  -o-transition: .2s;
+}
+
+#quotation .main_body form button:hover {
+  background-color: #014a77;
+}
+/*# sourceMappingURL=Quotation.css.map */

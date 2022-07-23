@@ -1,0 +1,20 @@
+create={    
+201-> success
+202-> already exists
+203-> not created
+}
+read={
+201-> success
+202-> no data found
+}
+update={
+201-> success
+202-> not exists
+203-> not updated
+}
+delete={
+201-> success
+202-> not exists
+203-> not deleted
+}
+204-> internal server error

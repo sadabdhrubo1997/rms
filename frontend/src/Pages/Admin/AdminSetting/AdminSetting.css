@@ -1,0 +1,133 @@
+#adminPasswordChange {
+  width: 35%;
+}
+
+#adminPasswordChange .backButton {
+  display: inline-block;
+  margin: 0;
+  margin-bottom: 5rem;
+  width: auto;
+}
+
+#adminPasswordChange button {
+  background-color: #00629f;
+  font-size: 2.5rem;
+  color: #ffffff;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 1rem 2rem;
+  display: block;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  outline: none;
+  border: none;
+  width: 100%;
+  margin-top: 2.5rem;
+  transition: .2s;
+  -webkit-transition: .2s;
+  -moz-transition: .2s;
+  -ms-transition: .2s;
+  -o-transition: .2s;
+}
+
+#adminPasswordChange button:hover {
+  background-color: #035283;
+}
+
+#adminPasswordChange .passwordChangeForm form input {
+  display: block;
+  width: 100%;
+  outline: none;
+  padding: 1.5rem 1rem;
+  outline: none;
+  border: 0.1rem solid rgba(0, 98, 159, 0.15);
+  margin-bottom: 1.5rem;
+  transition: .2s;
+  -webkit-transition: .2s;
+  -moz-transition: .2s;
+  -ms-transition: .2s;
+  -o-transition: .2s;
+}
+
+#adminPasswordChange .passwordChangeForm form input:focus {
+  border: 0.1rem solid rgba(0, 98, 159, 0.5);
+}
+
+#adminPasswordChange .passwordChangeForm form .loading_button {
+  font-size: 2.5rem;
+  font-weight: 600;
+  padding: 1rem;
+  color: #ffffff;
+  background-color: #025486;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  transition: .2s;
+  -webkit-transition: .2s;
+  -moz-transition: .2s;
+  -ms-transition: .2s;
+  -o-transition: .2s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#adminPasswordChange .passwordChangeForm form .loading_button span {
+  height: 3rem;
+  width: 3rem;
+  border: .3rem solid #ffffff;
+  border-bottom: none;
+  border-left: none;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  animation: anm1 1s linear infinite;
+  -webkit-animation: anm1 1s linear infinite;
+}
+
+@-webkit-keyframes anm1 {
+  0% {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+  }
+}
+
+@keyframes anm1 {
+  0% {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+  }
+}
+/*# sourceMappingURL=AdminSetting.css.map */

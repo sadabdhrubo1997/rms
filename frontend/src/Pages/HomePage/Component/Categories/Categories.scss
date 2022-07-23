@@ -1,0 +1,157 @@
+#all_categories {
+    padding-top: 10rem;
+    width: 100%;
+
+    h2 {
+        font-size: 5rem;
+        text-align: center;
+        font-weight: 400;
+        color: rgba(0, 0, 0, 0.7);
+    }
+
+    p {
+        font-size: 2.5rem;
+        text-align: center;
+        margin-bottom: 10rem;
+        color: rgba(0, 0, 0, 0.7);
+    }
+
+    .wrapper {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+
+        .single_card {
+            width: 29rem;
+            height: 46rem;
+            margin-bottom: 5.5rem;
+            cursor: pointer;
+            position: relative;
+            transition: .3s;
+            -webkit-transition: .3s;
+            -moz-transition: .3s;
+            -ms-transition: .3s;
+            -o-transition: .3s;      
+            text-align: center;
+
+            h2 {
+                font-size: 3rem;
+                font-weight: 400;
+                text-align: center;
+                margin-bottom: 1rem;
+            }
+
+            &:hover {
+                box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.1);
+            }
+
+            a {
+                font-size: 2rem;
+                text-decoration: none;
+                color: rgba(0, 0, 0, 0.7);
+                transition: .2s;
+                -webkit-transition: .2s;
+                -moz-transition: .2s;
+                -ms-transition: .2s;
+                -o-transition: .2s;
+                display: flex;
+                text-align: center;
+                width: 100%;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+
+
+                &:hover {
+                    color: #00629F;
+                }
+            }
+
+            .hoverable_area {
+                position: absolute;
+                height: 100%;
+                width: 100%;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                opacity: 0;
+                visibility: hidden;
+                transition: .2s;
+                -webkit-transition: .2s;
+                -moz-transition: .2s;
+                -ms-transition: .2s;
+                -o-transition: .2s;
+                background-color: rgba(0, 0, 0, 0.4);
+
+
+                .wrapper {
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+
+
+                    a {
+                        font-size: 3rem;
+                        text-decoration: none;
+                        color: rgba(255, 255, 255, 0.7);
+                        transition: .2s;
+                        -webkit-transition: .2s;
+                        -moz-transition: .2s;
+                        -ms-transition: .2s;
+                        -o-transition: .2s;
+                        display: flex;
+                        height: 100%;
+                        width: 100%;
+                        align-items: center;
+                        justify-content: center;
+
+                        &:hover {
+                            color: rgb(255, 255, 255);
+                        }
+                    }
+                }
+            }
+
+            .image {
+                width: 100%;
+                height: 36rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:768px) {
+    #all_categories {
+        padding-top: 8rem;
+    }
+}
+
+@media (max-width:425px) {
+    #all_categories {
+        padding-top: 5rem !important;
+
+        p {
+            margin-bottom: 4rem;
+        }
+
+        .wrapper {
+            justify-content: center;
+        }
+    }
+}

@@ -1,0 +1,40 @@
+#topbar {
+    background-color: rgb(255, 255, 255);
+    height: 8rem;
+    width: calc(100% - 20rem);
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 5rem;
+    box-shadow: 0 0 20px 5px rgba(4, 101, 162, 0.05);
+
+    a {
+        margin-left: 3rem;
+        width: 4rem;
+        cursor: pointer;
+
+        img {
+            width: 100%;
+        }
+
+    }
+
+
+    h1 {
+        font-size: 3.5rem;
+        font-weight: 600;
+        color: #0465A2;
+    }
+
+    .logout_btn {
+        font-size: 2.5rem;
+        font-weight: 600;
+        color: #0465A2;
+        cursor: pointer;
+        margin-left: 0;
+
+    }
+}

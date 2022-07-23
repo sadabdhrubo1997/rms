@@ -1,0 +1,45 @@
+#admin_about_us .loading {
+  text-align: center;
+  font-size: 5rem;
+  color: #00609D;
+}
+
+#admin_about_us h2 {
+  text-align: center;
+  font-size: 3.5rem;
+  color: #00609D;
+  margin-bottom: 3rem;
+}
+
+#admin_about_us textarea {
+  width: 100%;
+  display: block;
+  margin-bottom: 5rem;
+  height: auto;
+  font-size: 2.5rem;
+  resize: none;
+  border: .2rem solid #00609D;
+  outline: none;
+  padding: 1rem;
+}
+
+#admin_about_us .update_btn {
+  display: inline-block;
+  cursor: pointer;
+  font-size: 3rem;
+  padding: 2rem 4rem;
+  border: none;
+  outline: none;
+  background-color: #00609D;
+  color: #ffffff;
+  transition: .2s;
+  -webkit-transition: .2s;
+  -moz-transition: .2s;
+  -ms-transition: .2s;
+  -o-transition: .2s;
+}
+
+#admin_about_us .update_btn:hover {
+  background-color: #00436d;
+}
+/*# sourceMappingURL=AdminAboutUs.css.map */

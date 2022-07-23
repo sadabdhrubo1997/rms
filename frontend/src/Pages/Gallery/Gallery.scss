@@ -1,0 +1,51 @@
+#gallery {
+    .main_body {
+        padding-top: 10rem;
+
+        .wrapper {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+
+            .album {
+                width: 30rem;
+                height: 30rem;
+                margin-bottom: 10rem;
+
+                a {
+                    width: 100%;
+                    height: 100%;
+                    text-decoration: none;
+
+                    .poster {
+                        width: 100%;
+                        height: 100%;
+                        background-image: url("./gallery_poster_bg.svg");
+                        background-size: 100% 100%;
+                        background-position: center center;
+                        background-repeat: no-repeat;
+
+                        img {
+                            box-sizing: border-box;
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                            
+                        }
+                    }
+
+                    h2 {
+                        text-align: center;
+                        margin-top: 1.5rem;
+                        font-size: 2.5rem;
+                        color: rgba(0, 0, 0, 0.75);
+                    }
+                }
+
+            }
+        }
+
+
+    }
+}

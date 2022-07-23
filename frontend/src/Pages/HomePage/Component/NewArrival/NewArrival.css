@@ -1,0 +1,103 @@
+#new_arrival {
+  padding-top: 10rem;
+  width: 100%;
+}
+
+#new_arrival h2 {
+  font-size: 5rem;
+  text-align: center;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+#new_arrival p {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 10rem;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+#new_arrival .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#new_arrival .wrapper .arrow {
+  cursor: pointer;
+  width: 3rem;
+  height: auto;
+  transition: .2s;
+  -webkit-transition: .2s;
+  -moz-transition: .2s;
+  -ms-transition: .2s;
+  -o-transition: .2s;
+  opacity: .2;
+}
+
+#new_arrival .wrapper .arrow:hover {
+  opacity: .5;
+}
+
+#new_arrival .wrapper .slider_main {
+  height: 47rem;
+  width: 100%;
+}
+
+#new_arrival .wrapper .slider_main .singleSliderItemWrapper {
+  height: 47rem;
+  padding: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  outline: none;
+  border: none;
+}
+
+#new_arrival .wrapper .slider_main .singleSliderItemWrapper:focus {
+  outline: none;
+  border: none;
+}
+
+#new_arrival .wrapper .slider_main .singleSliderItemWrapper .singleSliderItem {
+  height: 100%;
+  width: 100%;
+}
+
+#new_arrival .wrapper .slider_main .singleSliderItemWrapper .singleSliderItem .image {
+  height: 37rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 3rem;
+}
+
+#new_arrival .wrapper .slider_main .singleSliderItemWrapper .singleSliderItem .image img {
+  width: 100%;
+}
+
+#new_arrival .wrapper .slider_main .singleSliderItemWrapper .singleSliderItem p {
+  margin-bottom: 0;
+  font-size: 3rem;
+}
+
+@media (max-width: 1024px) {
+  #new_arrival .wrapper .arrow {
+    display: none;
+  }
+}
+/*# sourceMappingURL=NewArrival.css.map */

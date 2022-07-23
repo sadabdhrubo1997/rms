@@ -1,0 +1,20 @@
+#dashboard .wrapper {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#dashboard .wrapper .card {
+  height: 30rem;
+  width: 23.5%;
+  background-color: rgba(4, 101, 162, 0.05);
+  margin: 1rem;
+  border: 0.1rem solid rgba(4, 101, 162, 0.3);
+}
+/*# sourceMappingURL=Dashboard.css.map */

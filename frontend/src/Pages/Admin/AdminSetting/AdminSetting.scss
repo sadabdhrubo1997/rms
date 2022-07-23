@@ -1,0 +1,114 @@
+#adminPasswordChange {
+    width: 35%;
+
+    .backButton{
+        display: inline-block;
+        margin: 0;
+        margin-bottom: 5rem;
+        width: auto;
+        
+    }
+
+    button {
+        background-color: rgb(0, 98, 159);
+        font-size: 2.5rem;
+        color: #ffffff;
+        font-weight: 500;
+        cursor: pointer;
+        padding: 1rem 2rem;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        outline: none;
+        border: none;
+        width: 100%;
+        margin-top: 2.5rem;
+        transition: .2s;
+        -webkit-transition: .2s;
+        -moz-transition: .2s;
+        -ms-transition: .2s;
+        -o-transition: .2s;
+
+        &:hover {
+            background-color: rgb(3, 82, 131);
+        }
+    }
+
+
+    .passwordChangeForm {
+        form {
+            input {
+                display: block;
+                width: 100%;
+                outline: none;
+                padding: 1.5rem 1rem;
+                outline: none;
+                border: .1rem solid rgba(0, 98, 159, 0.15);
+                margin-bottom: 1.5rem;
+                transition: .2s;
+                -webkit-transition: .2s;
+                -moz-transition: .2s;
+                -ms-transition: .2s;
+                -o-transition: .2s;
+
+                &:focus {
+                    border: .1rem solid rgba(0, 98, 159, 0.5);
+                }
+
+            }
+
+            .loading_button {
+                font-size: 2.5rem;
+                font-weight: 600;
+                padding: 1rem;
+                color: #ffffff;
+                background-color: rgb(2, 84, 134);
+                outline: none;
+                cursor: pointer;
+                border: none;
+                transition: .2s;
+                -webkit-transition: .2s;
+                -moz-transition: .2s;
+                -ms-transition: .2s;
+                -o-transition: .2s;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+    
+                span {
+                    height: 3rem;
+                    width: 3rem;
+                    border: .3rem solid #ffffff;
+                    border-bottom: none;
+                    border-left: none;
+                    border-radius: 50%;
+                    -webkit-border-radius: 50%;
+                    -moz-border-radius: 50%;
+                    -ms-border-radius: 50%;
+                    -o-border-radius: 50%;
+                    animation: anm1 1s linear infinite;
+                    -webkit-animation: anm1 1s linear infinite;
+                }
+    
+                @keyframes anm1 {
+                    0% {
+                        transform: rotate(0deg);
+                        -webkit-transform: rotate(0deg);
+                        -moz-transform: rotate(0deg);
+                        -ms-transform: rotate(0deg);
+                        -o-transform: rotate(0deg);
+                    }
+    
+                    100% {
+                        transform: rotate(360deg);
+                        -webkit-transform: rotate(360deg);
+                        -moz-transform: rotate(360deg);
+                        -ms-transform: rotate(360deg);
+                        -o-transform: rotate(360deg);
+                    }
+                }
+    
+            }
+        }
+    }
+}

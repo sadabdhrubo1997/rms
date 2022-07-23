@@ -1,0 +1,327 @@
+#admin_album {
+  display: block;
+}
+
+#admin_album .btn_wrapper {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#admin_album .createAlbumButton {
+  background-color: #00629f;
+  text-decoration: none;
+  padding: 1rem 2rem;
+  color: #ffffff;
+  font-size: 2.5rem;
+  font-weight: 500;
+  transition: .2s;
+  -webkit-transition: .2s;
+  -moz-transition: .2s;
+  -ms-transition: .2s;
+  -o-transition: .2s;
+  display: inline-block;
+}
+
+#admin_album .createAlbumButton:hover {
+  background-color: #035283;
+}
+
+#admin_album .addCategoryPage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#admin_album .addCategoryPage form {
+  width: 40%;
+}
+
+#admin_album .addCategoryPage form input {
+  display: block;
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+  font-weight: 400;
+  padding: 1rem;
+  outline: none;
+  border: 0.1rem solid rgba(0, 98, 159, 0.4);
+  color: #00629f;
+  transition: .2s;
+  -webkit-transition: .2s;
+  -moz-transition: .2s;
+  -ms-transition: .2s;
+  -o-transition: .2s;
+  width: 100%;
+}
+
+#admin_album .addCategoryPage form input:focus {
+  outline: none;
+  border: 0.1rem solid #00629f;
+}
+
+#admin_album .addCategoryPage form input::-webkit-input-placeholder {
+  color: rgba(1, 50, 80, 0.5);
+}
+
+#admin_album .addCategoryPage form input:-ms-input-placeholder {
+  color: rgba(1, 50, 80, 0.5);
+}
+
+#admin_album .addCategoryPage form input::-ms-input-placeholder {
+  color: rgba(1, 50, 80, 0.5);
+}
+
+#admin_album .addCategoryPage form input::placeholder {
+  color: rgba(1, 50, 80, 0.5);
+}
+
+#admin_album .addCategoryPage form input[type="file"] {
+  display: none;
+}
+
+#admin_album .addCategoryPage form label {
+  background-color: #00629f;
+  font-size: 2.5rem;
+  color: #ffffff;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 1rem 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  transition: .2s;
+  -webkit-transition: .2s;
+  -moz-transition: .2s;
+  -ms-transition: .2s;
+  -o-transition: .2s;
+}
+
+#admin_album .addCategoryPage form label:hover {
+  background-color: #035283;
+}
+
+#admin_album .addCategoryPage form .image_wrapper {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 2rem;
+}
+
+#admin_album .addCategoryPage form .image_wrapper .category_thumbnail {
+  width: 29rem;
+  margin-left: 3rem;
+}
+
+#admin_album .addCategoryPage form button {
+  background-color: #00629f;
+  font-size: 2.5rem;
+  color: #ffffff;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 1rem 2rem;
+  display: block;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  outline: none;
+  border: none;
+  width: 100%;
+  margin-top: 2.5rem;
+  transition: .2s;
+  -webkit-transition: .2s;
+  -moz-transition: .2s;
+  -ms-transition: .2s;
+  -o-transition: .2s;
+}
+
+#admin_album .addCategoryPage form button:hover {
+  background-color: #035283;
+}
+
+#admin_album .addCategoryPage .read_board {
+  width: 40%;
+  color: #035283;
+  font-size: 2.5rem;
+  line-height: 1.7;
+}
+
+#admin_album .addCategoryPage .read_board p {
+  background-color: rgba(3, 82, 131, 0.05);
+  padding: 2rem;
+}
+
+.album_thumbnail_wrapper {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 5rem;
+}
+
+.album_thumbnail_wrapper .single_album_thumbnail {
+  width: 25rem;
+  height: 30rem;
+  margin: 3rem;
+  margin-bottom: 10rem;
+}
+
+.album_thumbnail_wrapper .single_album_thumbnail a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+}
+
+.album_thumbnail_wrapper .single_album_thumbnail a img {
+  display: block;
+  width: 100%;
+  margin-bottom: 1.5rem;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.album_thumbnail_wrapper .single_album_thumbnail a p {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #00619F;
+}
+
+.masonry-grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #fff;
+}
+
+.masonry-grid_column {
+  padding: 0;
+}
+
+.singleImageWrapper {
+  width: 100%;
+  padding: 1rem;
+}
+
+.singleImageWrapper .sub {
+  width: 100%;
+  position: relative;
+}
+
+.singleImageWrapper .sub button {
+  position: absolute;
+  top: 3rem;
+  right: 3rem;
+  padding: .5rem 1rem;
+  font-size: 2rem;
+  background-color: #ff1b1b;
+  color: #ffffff;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: .2s;
+  -webkit-transition: .2s;
+  -moz-transition: .2s;
+  -ms-transition: .2s;
+  -o-transition: .2s;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.singleImageWrapper .sub button:hover {
+  background-color: #b80000;
+}
+
+.singleImageWrapper .sub:hover button {
+  opacity: 1;
+  visibility: visible;
+}
+
+.singleImage {
+  width: 100%;
+}
+
+#adminAlbumUpload form input {
+  display: none;
+}
+
+#adminAlbumUpload form label {
+  background-color: #00629f;
+  font-size: 2.5rem;
+  color: #ffffff;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 1rem 2rem;
+  display: inline-block;
+  transition: .2s;
+  -webkit-transition: .2s;
+  -moz-transition: .2s;
+  -ms-transition: .2s;
+  -o-transition: .2s;
+}
+
+#adminAlbumUpload form label:hover {
+  background-color: #035283;
+}
+
+.demo {
+  margin-top: 5rem;
+}
+
+.demo .myBox {
+  width: 20%;
+  height: 20rem;
+  padding: 1rem;
+}
+
+.demo .myBox img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.btn {
+  background-color: #00629f;
+  text-decoration: none;
+  padding: 1rem 2rem;
+  color: #ffffff;
+  font-size: 2.5rem;
+  font-weight: 500;
+  transition: .2s;
+  -webkit-transition: .2s;
+  -moz-transition: .2s;
+  -ms-transition: .2s;
+  -o-transition: .2s;
+  display: inline-block;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #035283;
+}
+/*# sourceMappingURL=AdminnAlbum.css.map */

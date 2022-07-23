@@ -1,0 +1,186 @@
+#services .main_body {
+  padding: 10rem 0;
+}
+
+#services .main_body h2 {
+  color: #00609D;
+  font-size: 5rem;
+  margin-bottom: 3rem;
+}
+
+#services .main_body section {
+  margin-bottom: 10rem;
+}
+
+#services .main_body section p {
+  max-width: 116rem;
+  font-size: 2.5rem;
+  color: rgba(0, 0, 0, 0.7);
+  line-height: 1.6;
+}
+
+#services .main_body .box_wrapper {
+  width: 100%;
+  margin-top: 15rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#services .main_body .box_wrapper .box {
+  width: 23%;
+  background-color: #00609D;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0 2rem 7rem 2rem;
+}
+
+#services .main_body .box_wrapper .box .crcl {
+  height: 20rem;
+  width: 20rem;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 4rem;
+  color: #00609D;
+  background-color: #fff;
+  margin-top: -10rem;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 4rem;
+}
+
+#services .main_body .box_wrapper .box h3 {
+  color: #FFF200;
+  font-size: 3rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+#services .main_body .box_wrapper .box p {
+  text-align: center;
+  font-size: 2.2rem;
+  color: #ffffff;
+  line-height: 1.4;
+}
+
+@media (max-width: 768px) {
+  #services .main_body {
+    padding: 10rem 0;
+  }
+  #services .main_body h2 {
+    font-size: 4rem !important;
+    margin-bottom: 3rem;
+    text-align: center !important;
+  }
+  #services .main_body section {
+    margin-bottom: 10rem;
+  }
+  #services .main_body section p {
+    max-width: 116rem;
+    font-size: 2.5rem;
+    color: rgba(0, 0, 0, 0.7);
+    line-height: 1.6;
+    text-align: center;
+  }
+  #services .main_body .box_wrapper {
+    width: 100%;
+    margin-top: 15rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  #services .main_body .box_wrapper .box {
+    width: 42%;
+    background-color: #00609D;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0 2rem 7rem 2rem;
+    margin-bottom: 20rem;
+  }
+  #services .main_body .box_wrapper .box .crcl {
+    height: 20rem;
+    width: 20rem;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 4rem;
+    color: #00609D;
+    background-color: #fff;
+    margin-top: -10rem;
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 4rem;
+  }
+  #services .main_body .box_wrapper .box h3 {
+    color: #FFF200;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+  #services .main_body .box_wrapper .box p {
+    text-align: center;
+    font-size: 2.2rem;
+    color: #ffffff;
+    line-height: 1.4;
+  }
+}
+
+@media (max-width: 425px) {
+  .box {
+    width: 100% !important;
+  }
+}
+/*# sourceMappingURL=Services.css.map */

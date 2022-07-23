@@ -1,0 +1,152 @@
+#contact .main_body {
+  padding-top: 10rem;
+}
+
+#contact .main_body .wrapper {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 10rem;
+}
+
+#contact .main_body .wrapper h2 {
+  margin-bottom: 4.5rem;
+  color: #00609D;
+  font-weight: 400;
+  font-size: 5rem;
+}
+
+#contact .main_body .wrapper .left {
+  max-width: 42rem;
+}
+
+#contact .main_body .wrapper .left p {
+  font-size: 2.5rem;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+#contact .main_body .wrapper .left .address {
+  margin-top: 4rem;
+}
+
+#contact .main_body .wrapper .left .address p {
+  margin-bottom: 2rem;
+}
+
+#contact .main_body .wrapper .right {
+  width: 71rem;
+}
+
+#contact .main_body .wrapper .right h2 {
+  margin-bottom: 5rem;
+}
+
+#contact .main_body .wrapper .right form {
+  width: 100%;
+}
+
+#contact .main_body .wrapper .right form input {
+  display: block;
+  width: 100%;
+  background-color: #F0F0F0;
+  border: none;
+  outline: none;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  padding: 1.5rem;
+}
+
+#contact .main_body .wrapper .right form input::-webkit-input-placeholder {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+#contact .main_body .wrapper .right form input:-ms-input-placeholder {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+#contact .main_body .wrapper .right form input::-ms-input-placeholder {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+#contact .main_body .wrapper .right form input::placeholder {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+#contact .main_body .wrapper .right form input:focus {
+  border: none;
+  outline: none;
+}
+
+#contact .main_body .wrapper .right form textarea {
+  width: 100%;
+  height: 30rem;
+  background-color: #F0F0F0;
+  padding: 1.5rem;
+  resize: none;
+  border: none;
+  outline: none;
+  font-size: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+#contact .main_body .wrapper .right form textarea::-webkit-input-placeholder {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+#contact .main_body .wrapper .right form textarea:-ms-input-placeholder {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+#contact .main_body .wrapper .right form textarea::-ms-input-placeholder {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+#contact .main_body .wrapper .right form textarea::placeholder {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+#contact .main_body .wrapper .right form button {
+  background-color: #00609D;
+  padding: 1rem 5rem;
+  font-size: 2.5rem;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: .2s;
+  -webkit-transition: .2s;
+  -moz-transition: .2s;
+  -ms-transition: .2s;
+  -o-transition: .2s;
+}
+
+#contact .main_body .wrapper .right form button:focus {
+  border: none;
+  outline: none;
+}
+
+#contact .main_body .wrapper .right form button:hover {
+  background-color: #004b7a;
+}
+
+@media (max-width: 768px) {
+  #contact .main_body .wrapper .right {
+    margin-top: 4rem !important;
+  }
+}
+
+#contact .main_body .map {
+  width: 100%;
+}
+
+#contact .main_body .map iframe {
+  width: 100%;
+  height: 70rem;
+}
+/*# sourceMappingURL=Contact.css.map */

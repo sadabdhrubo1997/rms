@@ -1,0 +1,45 @@
+#topbar {
+  background-color: white;
+  height: 8rem;
+  width: calc(100% - 20rem);
+  position: fixed;
+  top: 0;
+  right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-right: 5rem;
+  -webkit-box-shadow: 0 0 20px 5px rgba(4, 101, 162, 0.05);
+          box-shadow: 0 0 20px 5px rgba(4, 101, 162, 0.05);
+}
+
+#topbar a {
+  margin-left: 3rem;
+  width: 4rem;
+  cursor: pointer;
+}
+
+#topbar a img {
+  width: 100%;
+}
+
+#topbar h1 {
+  font-size: 3.5rem;
+  font-weight: 600;
+  color: #0465A2;
+}
+
+#topbar .logout_btn {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #0465A2;
+  cursor: pointer;
+  margin-left: 0;
+}
+/*# sourceMappingURL=Topbar.css.map */

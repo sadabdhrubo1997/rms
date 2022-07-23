@@ -1,0 +1,39 @@
+#single_album {
+    .main_body {
+        padding-top: 10rem;
+
+        h1 {
+            text-align: center;
+            margin-bottom: 5rem;
+            color: #222222;
+        }
+
+    }
+
+
+    img {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .masonry-grid {
+        display: flex;
+    }
+
+    .masonry-grid_column {
+        padding: 0;
+    }
+}
+
+
+.singleImageWrapper {
+    position: relative;
+
+
+    
+
+    button {
+        position: absolute;
+        font-size: 3rem;
+    }
+}

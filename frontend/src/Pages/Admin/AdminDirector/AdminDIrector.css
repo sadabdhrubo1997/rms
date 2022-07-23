@@ -1,0 +1,91 @@
+#admin_director .admin_main_body {
+  display: block;
+}
+
+#admin_director .wrapper {
+  margin-top: 5rem;
+}
+
+#admin_director .wrapper table {
+  width: 100%;
+}
+
+#admin_director .wrapper table thead {
+  background-color: rgba(0, 60, 97, 0.05);
+  color: #003c61;
+  font-size: 3rem;
+}
+
+#admin_director .wrapper table thead th {
+  padding: 1rem;
+}
+
+#admin_director .wrapper table tbody {
+  font-size: 2.5rem;
+  color: rgba(0, 60, 97, 0.7);
+}
+
+#admin_director .wrapper table tbody td {
+  text-align: center;
+}
+
+#admin_director .wrapper table tbody td button {
+  display: inline-block;
+  margin: 1rem;
+  padding: 1rem 2rem;
+  font-size: 2.5rem;
+  outline: none;
+  border: none;
+  color: #ffffff;
+  transition: .2s;
+  -webkit-transition: .2s;
+  -moz-transition: .2s;
+  -ms-transition: .2s;
+  -o-transition: .2s;
+  cursor: pointer;
+  background-color: #e72929;
+}
+
+#admin_director .wrapper table tbody td button:hover {
+  background-color: #ca1111;
+}
+
+#admin_director .wrapper table tbody td a {
+  display: inline-block;
+  margin: 1rem;
+  padding: 1rem 2rem;
+  font-size: 2.5rem;
+  outline: none;
+  border: none;
+  color: #ffffff;
+  transition: .2s;
+  -webkit-transition: .2s;
+  -moz-transition: .2s;
+  -ms-transition: .2s;
+  -o-transition: .2s;
+  cursor: pointer;
+  background-color: rgba(0, 60, 97, 0.884);
+  text-decoration: none;
+}
+
+#admin_director .wrapper table tbody td a:hover {
+  background-color: rgba(1, 40, 65, 0.884);
+}
+
+#admin_director .wrapper table tbody td img {
+  width: 10rem;
+  padding: 2rem;
+}
+
+#admin_director .wrapper table .image {
+  width: 25rem;
+}
+
+#admin_director .wrapper table .name {
+  width: 40%;
+}
+
+#admin_director .wrapper table .designation {
+  width: 20%;
+}
+/*# sourceMappingURL=AdminDIrector.css.map */

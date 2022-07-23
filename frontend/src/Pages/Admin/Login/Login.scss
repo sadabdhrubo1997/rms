@@ -1,0 +1,147 @@
+#admin_login {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    
+    h2{
+        color: rgb(252, 58, 58);
+        text-align: center;
+        font-weight: 500;
+        font-size: 2.5rem;
+        margin-top: 3rem;
+
+    }
+
+
+    .wrapper {
+        width: 80rem;
+        background-color: rgba(4, 101, 162, 0.05);
+        border: .1rem solid rgba(4, 101, 162, 0.2);
+        padding: 3rem;
+
+
+        h1 {
+            color: #0465A2;
+            text-align: center;
+            margin-bottom: 2rem;
+            border-bottom: .1rem solid rgba(4, 101, 162, 0.2);
+            padding-bottom: 2rem;
+            margin-bottom: 5rem;
+        }
+
+        input {
+            width: 100%;
+            display: block;
+            font-size: 2rem;
+            margin-bottom: 2rem;
+            padding: 1rem;
+            border: .1rem solid rgba(4, 101, 162, 0.2);
+            outline: none;
+            transition: .2s;
+            -webkit-transition: .2s;
+            -moz-transition: .2s;
+            -ms-transition: .2s;
+            -o-transition: .2s;
+
+            &:focus {
+                border: .1rem solid rgba(4, 101, 162, 0.5);
+                outline: none;
+            }
+        }
+
+        button {
+            display: block;
+            width: 100%;
+            font-size: 2.5rem;
+            font-weight: 600;
+            padding: 1rem;
+            color: #ffffff;
+            background-color: rgb(4, 101, 162);
+            outline: none;
+            cursor: pointer;
+            border: none;
+            transition: .2s;
+            -webkit-transition: .2s;
+            -moz-transition: .2s;
+            -ms-transition: .2s;
+            -o-transition: .2s;
+
+            &:hover {
+                background-color: rgb(2, 84, 134);
+            }
+        }
+
+        .loading_button {
+            font-size: 2.5rem;
+            font-weight: 600;
+            padding: 1rem;
+            color: #ffffff;
+            background-color: rgb(2, 84, 134);
+            outline: none;
+            cursor: pointer;
+            border: none;
+            transition: .2s;
+            -webkit-transition: .2s;
+            -moz-transition: .2s;
+            -ms-transition: .2s;
+            -o-transition: .2s;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            span {
+                height: 3rem;
+                width: 3rem;
+                border: .3rem solid #ffffff;
+                border-bottom: none;
+                border-left: none;
+                border-radius: 50%;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                -ms-border-radius: 50%;
+                -o-border-radius: 50%;
+                animation: anm1 1s linear infinite;
+                -webkit-animation: anm1 1s linear infinite;
+            }
+
+            @keyframes anm1 {
+                0% {
+                    transform: rotate(0deg);
+                    -webkit-transform: rotate(0deg);
+                    -moz-transform: rotate(0deg);
+                    -ms-transform: rotate(0deg);
+                    -o-transform: rotate(0deg);
+                }
+
+                100% {
+                    transform: rotate(360deg);
+                    -webkit-transform: rotate(360deg);
+                    -moz-transform: rotate(360deg);
+                    -ms-transform: rotate(360deg);
+                    -o-transform: rotate(360deg);
+                }
+            }
+
+        }
+
+
+
+        .forgetPasswordButtonArea {
+            margin-top: 2.5rem;
+
+            a {
+                display: block;
+                text-align: center;
+                text-decoration: none;
+                font-size: 2.5rem;
+                font-weight: 500;
+                color: #0465A2;
+
+            }
+        }
+    }
+}

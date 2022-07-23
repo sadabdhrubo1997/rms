@@ -1,0 +1,50 @@
+#admin_header_slider {
+    .admin_header_slider {
+        width: 100%;
+
+        .top {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+
+            .left {
+                width: 65%;
+
+                label,button{
+                    background-color: #00609D;
+                    font-size: 2.5rem;
+                    color: #fff;
+                    padding: 1.5rem 3rem;
+                    cursor: pointer;
+                    transition: .2s;
+                    -webkit-transition: .2s;
+                    -moz-transition: .2s;
+                    -ms-transition: .2s;
+                    -o-transition: .2s;   
+                    border: none;
+                    outline: none;    
+                    display: inline-flex;
+                    margin-right: 2rem;            
+
+
+                    &:hover{
+                        background-color: #004977;
+                    }
+}
+            }
+
+            .right{
+                width: 30%;
+                .read_board{
+                    width: 100%;
+                }
+            }
+        }
+
+        .bottom{
+            width: 100%;
+            
+        }
+    }
+}

@@ -1,0 +1,97 @@
+#about_us {
+  background-color: white;
+}
+
+#about_us .main_body {
+  padding: 10rem 0 0 0;
+}
+
+#about_us .main_body section {
+  margin-bottom: 10rem;
+}
+
+#about_us .main_body h2 {
+  color: #00609D;
+  font-size: 5rem;
+  font-weight: 400;
+  margin-bottom: 3rem;
+}
+
+#about_us .main_body p {
+  font-size: 2.2rem;
+  color: rgba(0, 0, 0, 0.75);
+  line-height: 1.6;
+}
+
+#about_us .main_body p.narrow {
+  max-width: 90rem;
+}
+
+#about_us .main_body .icon_box_wrapper {
+  margin: 7.5rem 0 0 0;
+  padding-bottom: 10rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#about_us .main_body .icon_box_wrapper .icon_box {
+  width: 30rem;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 3rem;
+}
+
+#about_us .main_body .icon_box_wrapper .icon_box img {
+  width: 20rem;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 425px) {
+  #about_us {
+    text-align: center;
+  }
+  #about_us .icon_box_wrapper {
+    margin: 7.5rem 0 0 0;
+    padding-bottom: 10rem;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  #about_us .icon_box_wrapper .icon_box {
+    width: 70%;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #about_us .icon_box_wrapper .icon_box img {
+    width: 20rem;
+    margin-bottom: 2rem;
+  }
+}
+/*# sourceMappingURL=AboutUs.css.map */
